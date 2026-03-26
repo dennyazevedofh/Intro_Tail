@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TailwindCSS - Grid</title>
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<!-- colunas --->
+		<div class="grid bg-red-300 grid-cols-4">
+			<div class="bg-red-400 p-6 m-3">1</div>
+			<div class="bg-red-400 p-6 m-3">2</div>
+			<div class="bg-red-400 p-6 m-3">3</div>
+			<div class="bg-red-400 p-6 m-3">4</div>
+		</div>
+
+		<div class="grid bg-green-300 grid-cols-2">
+			<div class="bg-green-400 p-6 m-3">1</div>
+			<div class="bg-green-400 p-6 m-3">2</div>
+			<div class="bg-green-400 p-6 m-3">3</div>
+			<div class="bg-green-400 p-6 m-3">4</div>
+		</div>
+
+		<!-- largura das colunas -->
+		<div class="grid grid-cols-6 m2 bg-yellow-300">
+			<div class="col-span-1 m-2 bg-green-400">
+				<ul>
+					<li>Home</li>
+					<li>Produtos</li>
+					<li>Contato</li>
+					<li>Blog</li>
+				</ul>
+			</div>
+			<div class="col-span-5 m-2 bg-blue-400">
+				<!-- lorem*5 -->
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+					Itaque ipsum corporis obcaecati repellendus impedit
+					necessitatibus nulla debitis labore eos. Dicta, quidem fuga.
+					Ducimus hic nobis perspiciatis laboriosam eligendi, porro
+					soluta. Error sed voluptas delectus excepturi neque
+					laudantium nihil a! Reiciendis ad, enim harum totam culpa
+					veritatis ea, recusandae alias quasi quo iste hic laboriosam
+					rerum possimus incidunt nihil error suscipit. Dignissimos
+					itaque ex quis! Fuga ratione labore dolores, iure deleniti
+					expedita reiciendis natus voluptatibus esse sit aspernatur.
+					Veritatis obcaecati tempore mollitia incidunt qui delectus
+					animi, natus ad dignissimos eos error. Laboriosam tempora
+					mollitia cupiditate reiciendis corporis nulla aspernatur
+					aliquam dignissimos sint facilis ullam repellat totam quo
+					necessitatibus nihil velit blanditiis praesentium odio
+					accusantium consequuntur alias similique quod, dolores
+					animi? Est! In, ullam doloribus consequuntur at unde, quos
+					nesciunt quo impedit dignissimos itaque tenetur, qui
+					laudantium perferendis asperiores aperiam blanditiis vel
+					ducimus sit dolores eos amet repellendus exercitationem
+					praesentium! Voluptates, hic.
+				</p>
+			</div>
+		</div>
+
+		<div class="grid grid-cols-4 m-2 bg-purple-300">
+			<div class="col-span-4 bg-red-400">Barra de Navegação</div>
+			<div class="col-span-1 m-2 bg-purple-500">Menu Lateral</div>
+			<div class="col-span-2 m-2 bg-teal-400">
+				<p>
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+					Pariatur magni porro, dolores nesciunt architecto iusto unde
+					nam mollitia fuga iure facere fugiat natus inventore enim
+					quos obcaecati fugit odit tenetur. Vel veritatis nisi qui
+					expedita? Provident praesentium nostrum enim ab voluptas
+					tempora molestias illo. Laborum, illo neque ut placeat non
+					vel minus doloribus reiciendis, perferendis consequatur, est
+					architecto? Magni, quis? Perspiciatis quis officia
+					assumenda. Dolorum neque atque officia a tenetur molestias
+					dolore! Sequi quo illum nostrum debitis temporibus aliquid
+					cumque recusandae placeat, id neque. Sit sapiente molestias
+					magnam aperiam magni. Consectetur ad nulla eos veritatis
+					iusto atque odio dolorum omnis laudantium. Quisquam ex vero
+					eaque aspernatur nisi asperiores adipisci, doloribus error
+					earum excepturi? Itaque quae eius quo, eum cumque eveniet?
+				</p>
+			</div>
+			<div class="col-span-1 m-2 bg-purple-400">Publicidade</div>
+		</div>
+
+		<!-- linhas -->
+		<div class="grid grid-rows-3 grid-flow-col bg-gray-400">
+			<div class="bg-gray-600 p-3 m-1">1</div>
+			<div class="bg-gray-800 p-3 m-1">2</div>
+			<div class="bg-gray-600 p-3 m-1">3</div>
+			<div class="bg-gray-800 p-3 m-1">4</div>
+			<div class="bg-gray-600 p-3 m-1">5</div>
+			<div class="bg-gray-800 p-3 m-1">6</div>
+			<div class="bg-gray-600 p-3 m-1">7</div>
+			<div class="bg-gray-800 p-3 m-1">8</div>
+		</div>
+
+		<!-- Espaçamentos -->
+		<div class="grid grid-cols-3 gap-2 bg-yellow-400 m-4">
+			<div class="bg-yellow-600 p-3">1</div>
+			<div class="bg-yellow-800 p-3">2</div>
+			<div class="bg-yellow-600 p-3">3</div>
+			<div class="bg-yellow-800 p-3">4</div>
+			<div class="bg-yellow-600 p-3">5</div>
+			<div class="bg-yellow-800 p-3">6</div>
+			<div class="bg-yellow-600 p-3">7</div>
+			<div class="bg-yellow-800 p-3">8</div>
+		</div>
+	</body>
+</html>
